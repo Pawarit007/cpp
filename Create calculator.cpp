@@ -19,13 +19,7 @@ int main() {
          cout << num1 << " + " << num2 << " = "<< num1+num2 << endl;
          
     }else if(op==2){
-         cout << "Sudtract function" << endl;
-     }else{
-         cout << "Invalid data" << endl;
-         
-     }
-         if(op==1){
-         cout << "Adder function" << endl;
+         cout << "Delete function" << endl;
          // num1
          cout << "Enter num1 : " ;
          cin >> num1;
@@ -37,13 +31,8 @@ int main() {
          cout << "-------------------" << endl;
          cout << num1 << " - " << num2 << " = "<< num1-num2 << endl;
          
-    }else if(op==2){
-         cout << "Sudtract function" << endl;
-     }else{
-         cout << "Invalid data" << endl;
-     }
-         if(op==1){
-         cout << "Adder function" << endl;
+    }else if(op==3){
+         cout << "Multiplication function" << endl;
          // num1
          cout << "Enter num1 : " ;
          cin >> num1;
@@ -55,13 +44,8 @@ int main() {
          cout << "-------------------" << endl;
          cout << num1 << " * " << num2 << " = "<< num1*num2 << endl;
          
-    }else if(op==2){
-         cout << "Sudtract function" << endl;
-     }else{
-         cout << "Invalid data" << endl;
-     }
-         if(op==1){
-         cout << "Adder function" << endl;
+    }else if(op==4){
+         cout << "division function" << endl;
          // num1
          cout << "Enter num1 : " ;
          cin >> num1;
